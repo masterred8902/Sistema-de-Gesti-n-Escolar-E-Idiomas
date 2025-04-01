@@ -1,0 +1,7 @@
+*{
+    background-color: azure;
+}
+
+table tr td{
+    border: 4px solid blue;
+}

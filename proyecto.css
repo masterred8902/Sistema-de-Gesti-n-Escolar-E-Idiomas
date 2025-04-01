@@ -1,0 +1,30 @@
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: transparent; /* Si no hay imagen de fondo, mejor usar transparente */
+    text-align: center; /* Alinea el texto si es necesario */
+}
+
+body{
+    background-color: aqua;
+    border: none; /* "0" funciona, pero "none" es más claro */
+    width: 1350px;
+    height: 615px;
+    margin: auto; /* Centra la tabla */
+}
+
+table.inner-table { /* Clase para la tabla interna */
+    background-color: blue;
+    border: 3px solid black; /* "3" solo no funciona, necesita "px solid color" */
+    width: 1250px;
+    height: 515px;
+    margin: auto; /* Centra la tabla interna */
+}
+
+center.p{
+    color: white;
+}
+
+div.Usuario label{
+    color: red;
+}
